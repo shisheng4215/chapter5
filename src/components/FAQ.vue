@@ -1,7 +1,6 @@
 <template>
 	<main class="faq">
 		<h1>Frenquently Asked Questions</h1>
-		
 		<div class="error" v-if="hasRemoteErrors">
 			Cant't load the Questions
 		</div>

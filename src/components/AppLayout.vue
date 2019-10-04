@@ -8,8 +8,10 @@
 		</header>
 		<!--菜单将放在这里-->
 		<NavMenu />
-		
-		<router-view />
+		<transition name="fade" mode="out-in">
+			<router-view />			
+		</transition>
+
 	</div>
 </template>
 
